@@ -1,4 +1,5 @@
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
+import Intro from "./components/Intro/Intro";
 import "./index.scss";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <main>
         <Header />
+        <Intro />
       </main>
     </>
   );

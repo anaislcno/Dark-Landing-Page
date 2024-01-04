@@ -1,8 +1,9 @@
-import Logo from "./../assets/images/logo.svg";
+import "./Header.scss";
+import Logo from "./../../assets/images/logo.svg";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <img src={Logo} alt="Logo Fylo" className="header__img" />
       <nav className="navbar">
         <a href="#features" className="navbar__link">
