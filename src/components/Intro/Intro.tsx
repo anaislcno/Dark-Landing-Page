@@ -10,7 +10,7 @@ const Intro = () => {
         className="intro__img"
       />
       <h1 className="intro__title">
-        All you files in one secure location, accessible anywhere
+        All your files in one secure location, accessible anywhere
       </h1>
       <p className="intro__text">
         Fylo stores all your most important files in one secure location. Acess

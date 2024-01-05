@@ -1,0 +1,39 @@
+.wave {
+  background-color: var(--dark-blue-main);
+  margin: 50px auto;
+
+  position: relative;
+  bottom: 290px;
+
+  .section-services {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    gap: 90px 0px;
+    background-color: var(--dark-blue-main);
+
+    .service {
+      width: 65%;
+      background-color: transparent;
+
+      &__title {
+        font-size: 18px;
+        line-height: 40px;
+        background-color: transparent;
+      }
+
+      &__description {
+        font-size: 14px;
+        background-color: transparent;
+      }
+
+      &__img {
+        background-color: transparent;
+      }
+    }
+  }
+}
