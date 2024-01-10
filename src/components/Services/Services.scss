@@ -1,9 +1,9 @@
 .wave {
   background-color: var(--dark-blue-main);
-  margin: 50px auto;
+  //   margin: 50px auto;
 
   position: relative;
-  bottom: 290px;
+  bottom: 250px;
 
   .section-services {
     margin: auto;
@@ -13,7 +13,7 @@
     align-items: center;
     text-align: center;
     justify-items: center;
-    gap: 90px 0px;
+    gap: 85px 0px;
     background-color: var(--dark-blue-main);
 
     .service {
