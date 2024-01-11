@@ -9,20 +9,17 @@
   margin: auto;
 
   position: sticky;
-  background-color: transparent;
   z-index: 100;
 
   &__title {
     font-size: 40px;
     line-height: 60px;
-    background-color: transparent;
   }
 
   &__text {
     width: 85%;
     font-size: 20px;
     line-height: 30px;
-    background-color: transparent;
   }
 
   &__cta {

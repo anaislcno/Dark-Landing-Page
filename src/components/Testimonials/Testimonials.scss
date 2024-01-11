@@ -1,16 +1,21 @@
 .testimonials {
   background-color: var(--dark-blue-main);
-  margin: 40px auto;
-  position: relative;
+  margin: 150px auto;
 
-  &__quote {
-    background-color: transparent;
+  .cards__container__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonials__quote {
     position: absolute;
-    top: -30px;
-    left: 130px;
+    left: -10px;
+    top: -35px;
   }
 
   .cards__container {
+    position: relative;
     background-color: transparent;
     display: flex;
     flex-direction: row;
@@ -18,11 +23,16 @@
     gap: 40px;
 
     .cards {
+      z-index: 2;
       background-color: var(--dark-blue-testi) !important;
       padding: 35px 25px 25px 25px;
       width: fit-content;
       max-width: 360px;
       border-radius: 5px;
+
+      box-shadow: 10px 10px 10px 2px rgba(27, 33, 43, 0.75);
+      -webkit-box-shadow: 10px 10px 10px 2px rgba(27, 33, 43, 0.75);
+      -moz-box-shadow: 10px 10px 10px 2px rgba(27, 33, 43, 0.75);
 
       &__profile {
         display: flex;
@@ -35,26 +45,20 @@
           height: 30px;
           width: 30px;
           border-radius: 50%;
-          background: transparent;
         }
 
         .cards__person {
-          background-color: transparent;
-
           .cards__name {
-            background-color: transparent;
             font-size: 12px;
           }
 
           .cards__role {
-            background-color: transparent;
             font-size: 10px;
           }
         }
       }
 
       .cards__text {
-        background: transparent;
         font-size: 14px;
         line-height: 20px;
         margin-bottom: 25px;

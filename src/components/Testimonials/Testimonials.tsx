@@ -17,24 +17,26 @@ function Testimonials() {
 
   return (
     <section className="testimonials">
-      <img className="testimonials__quote" src={QuotationMark} />
-      <div className="cards__container">
-        {testimonialData.map((testimonial, index) => (
-          <div className="cards" key={index}>
-            <p className="cards__text">{commonText}</p>
-            <div className="cards__profile">
-              <img
-                src={testimonial.image}
-                className="cards__img"
-                alt={`Picture ${testimonial.name}`}
-              />
-              <div className="cards__person">
-                <h3 className="cards__name">{testimonial.name}</h3>
-                <p className="cards__role">{commonRole}</p>
+      <div className="cards__container__wrapper">
+        <div className="cards__container">
+          <img className="testimonials__quote" src={QuotationMark} />
+          {testimonialData.map((testimonial, index) => (
+            <div className="cards" key={index}>
+              <p className="cards__text">{commonText}</p>
+              <div className="cards__profile">
+                <img
+                  src={testimonial.image}
+                  className="cards__img"
+                  alt={`Picture ${testimonial.name}`}
+                />
+                <div className="cards__person">
+                  <h3 className="cards__name">{testimonial.name}</h3>
+                  <p className="cards__role">{commonRole}</p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

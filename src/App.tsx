@@ -3,6 +3,7 @@ import Intro from "./components/Intro/Intro";
 import Productivity from "./components/Productivity/Productivity";
 import Services from "./components/Services/Services";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Footer from "./components/Footer/Footer";
 import "./index.scss";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Productivity />
           <Testimonials />
         </div>
+        <Footer />
       </main>
     </>
   );
