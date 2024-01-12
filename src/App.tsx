@@ -4,6 +4,7 @@ import Productivity from "./components/Productivity/Productivity";
 import Services from "./components/Services/Services";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
+import Cta from "./components/Cta/Cta";
 import "./index.scss";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Services />
           <Productivity />
           <Testimonials />
+          <Cta />
         </div>
         <Footer />
       </main>
