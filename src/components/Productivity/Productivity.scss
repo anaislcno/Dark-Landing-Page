@@ -31,6 +31,10 @@
       border-bottom: 1px solid var(--cyan);
       width: fit-content;
       padding-bottom: 2px;
+
+      &:hover {
+        filter: grayscale(1) contrast(2);
+      }
     }
 
     &__arrow {
