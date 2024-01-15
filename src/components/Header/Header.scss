@@ -4,12 +4,27 @@
   justify-content: space-between;
   margin: 80px;
 
+  @media screen and (max-width: 380px) {
+    margin: 20px;
+  }
+
+  &__img {
+    @media screen and (max-width: 380px) {
+      max-width: 25%;
+    }
+  }
+
   .navbar {
     display: flex;
     justify-content: space-between;
     gap: 55px;
     font-size: 16px;
     font-weight: 300;
+
+    @media screen and (max-width: 380px) {
+      gap: 25px;
+      font-size: 14px;
+    }
 
     .navbar__link:hover {
       font-weight: 600;

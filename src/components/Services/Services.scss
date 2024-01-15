@@ -1,13 +1,20 @@
 .wave__img {
   background-color: var(--dark-blue-intro);
+
+  @media screen and (max-width: 380px) {
+    content: url("./../../assets/images/bg-curvy-mobile.svg");
+    margin-bottom: 350px;
+  }
 }
 
 .wave {
   background-color: var(--dark-blue-main);
-  //   margin: 50px auto;
-
   position: relative;
   bottom: 250px;
+
+  @media screen and (max-width: 380px) {
+    bottom: 385px;
+  }
 
   .section-services {
     margin: auto;
@@ -20,16 +27,38 @@
     gap: 85px 0px;
     background-color: var(--dark-blue-main);
 
+    @media screen and (max-width: 380px) {
+      grid-template-columns: 1fr;
+    }
+
     .service {
       width: 65%;
+
+      @media screen and (max-width: 380px) {
+        width: 100%;
+      }
 
       &__title {
         font-size: 18px;
         line-height: 40px;
+
+        @media screen and (max-width: 380px) {
+          font-size: 18px;
+        }
       }
 
       &__description {
         font-size: 14px;
+
+        @media screen and (max-width: 380px) {
+          line-height: 22px;
+        }
+      }
+
+      &__img {
+        @media screen and (max-width: 380px) {
+          width: 25%;
+        }
       }
     }
   }
