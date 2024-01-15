@@ -1,5 +1,11 @@
 .wave__img {
   background-color: var(--dark-blue-intro);
+  width: 100%;
+  height: auto;
+
+  @media screen and (max-width: 900px) {
+    margin-bottom: 150px;
+  }
 
   @media screen and (max-width: 380px) {
     content: url("./../../assets/images/bg-curvy-mobile.svg");
@@ -27,7 +33,7 @@
     gap: 85px 0px;
     background-color: var(--dark-blue-main);
 
-    @media screen and (max-width: 380px) {
+    @media screen and (max-width: 768px) {
       grid-template-columns: 1fr;
     }
 
